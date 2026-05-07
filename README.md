@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Jallah Kollie Jr Portfolio
 
 This portfolio is ready to be published with GitHub Pages so you can use a public `https://...` link on your resume instead of a local `file:///...` path.
@@ -106,3 +107,6 @@ git push
 - `.nojekyll`
 
 The `.nojekyll` file helps GitHub Pages serve the site exactly as a static folder.
+=======
+# jallah-kollie-jr-portfolio
+>>>>>>> 6259bf1b64e8e357aa579f822dfac20923571e13
