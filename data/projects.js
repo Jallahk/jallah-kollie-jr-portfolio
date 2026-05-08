@@ -1,6 +1,6 @@
 window.PORTFOLIO_DATA = {
-  "generated_at": "2026-05-08T00:31:10.932209",
-  "generated_at_label": "May 08, 2026 12:31 AM",
+  "generated_at": "2026-05-08T01:39:58.852339",
+  "generated_at_label": "May 08, 2026 01:39 AM",
   "latest_modified_label": "Dec 09, 2025",
   "sections": [
     {
@@ -2439,17 +2439,5 @@ window.PORTFOLIO_DATA = {
       ]
     }
   ],
-  "demos": [
-    {
-      "id": "demo-1",
-      "title": "MU Performance Consulting AI Project Demo",
-      "description": "Video walkthrough of the AI-powered project we have been working on with MU Performance Consulting this semester. Replace this description anytime with more project-specific details.",
-      "status": "Coming soon",
-      "project_url": "",
-      "video_url": "",
-      "thumbnail_url": "",
-      "is_video": false,
-      "has_thumbnail": false
-    }
-  ]
+  "demos": []
 };
