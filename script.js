@@ -1,6 +1,5 @@
 const statsGrid = document.getElementById("stats-grid");
 const searchInput = document.getElementById("search-input");
-const missingFoldersNote = document.getElementById("missing-folders-note");
 const demoGrid = document.getElementById("demo-grid");
 const demoCount = document.getElementById("demo-count");
 const demoForm = document.getElementById("demo-form");
@@ -69,9 +68,12 @@ const renderStats = (data) => {
   });
 };
 
+<<<<<<< HEAD
 const renderMissingFolders = () => {};
 
 
+=======
+>>>>>>> b00ae67 (Remove missing folder note)
 const openProjectModal = (item) => {
   modalFolder.textContent = item.section;
   modalTitle.textContent = item.title;
@@ -329,7 +331,6 @@ if (window.PORTFOLIO_DATA) {
   const data = window.PORTFOLIO_DATA;
   catalog = data.files;
   renderStats(data);
-  renderMissingFolders(data.sections);
   renderAllCodeTabs();
   renderDemos(data.demos || []);
 } else {
