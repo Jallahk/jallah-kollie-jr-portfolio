@@ -63,7 +63,7 @@ const renderStats = (data) => {
     ["Python Files", formatNumber(data.files.length)],
     ["Folders Included", formatNumber(sectionsPresent)],
     ["Lines of Code", formatNumber(totalLines)],
-    ["Latest Update", data.latest_modified_label],
+    ["Portfolio Updated", data.generated_at_label || data.latest_modified_label],
   ].forEach(([label, value]) => {
     statsGrid.appendChild(createStatCard(label, value));
   });

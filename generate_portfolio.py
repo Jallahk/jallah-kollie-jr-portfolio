@@ -392,6 +392,7 @@ def build_catalog() -> dict:
     files, sections = collect_files()
     demos = collect_demos()
 
+    generated_now = datetime.now()
     latest_modified = max((item["modified"] for item in files), default=None)
     latest_label = (
         datetime.fromisoformat(latest_modified).strftime("%b %d, %Y")
@@ -400,7 +401,8 @@ def build_catalog() -> dict:
     )
 
     catalog = {
-        "generated_at": datetime.now().isoformat(),
+        "generated_at": generated_now.isoformat(),
+        "generated_at_label": generated_now.strftime("%b %d, %Y %I:%M %p"),
         "latest_modified_label": latest_label,
         "sections": sections,
         "section_counts": Counter(item["section"] for item in files),
