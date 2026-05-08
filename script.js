@@ -68,12 +68,7 @@ const renderStats = (data) => {
   });
 };
 
-<<<<<<< HEAD
 const renderMissingFolders = () => {};
-
-
-=======
->>>>>>> b00ae67 (Remove missing folder note)
 const openProjectModal = (item) => {
   modalFolder.textContent = item.section;
   modalTitle.textContent = item.title;
