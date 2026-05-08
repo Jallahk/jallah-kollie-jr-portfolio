@@ -69,12 +69,8 @@ const renderStats = (data) => {
   });
 };
 
-const renderMissingFolders = (sections) => {
-  const missing = sections.filter((section) => !section.available).map((section) => section.name);
-  missingFoldersNote.textContent = missing.length
-    ? `Folder note: ${missing.join(", ")} was not found on disk when this portfolio was generated, so it is not shown yet.`
-    : "All requested folders were found when this portfolio was generated.";
-};
+const renderMissingFolders = () => {};
+
 
 const openProjectModal = (item) => {
   modalFolder.textContent = item.section;
